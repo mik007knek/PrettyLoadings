@@ -6,8 +6,8 @@ Version = 0.0.0.1
 Loadings:
 -Text Expansion (t->te->tes->test)
 -Symbol Expansion (%->%%->%%%->%%%%)
--Dot Circling ('-'->\->|->/)
--Line Circling ('-'->\\->|||->////)
+-Dot Circling ('-'->'\'->'|'->'/')
+-Line Circling ('-'->'\\'->'|||'->'////')
 (all examples are shown as 1 time loop)
 
 In next versions there will be more loadings and (maybe) adaptive loadings
