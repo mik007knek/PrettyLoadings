@@ -3,6 +3,13 @@ import time
 
 
 def text_expansion(text: str, times: int = 2, clear: bool = False):
+    r"""
+    Example:
+
+    t->te->tex->text->tex->te->t
+
+    (example for text == `text`, times == 2)
+    """
     clear = 'clear' if clear else 'cls'
     for j in range(times):
         if j % 2 == 0:
@@ -16,6 +23,13 @@ def text_expansion(text: str, times: int = 2, clear: bool = False):
 
 
 def symbol_expansion(symbol: str, kol: int = 10, times: int = 2, clear: bool = False):
+    r"""
+    Example:
+
+    %->%%->%%%->%%%%->%%%->%%->%
+
+    (example for symbol == `%`, kol == 4, times == 2)
+    """
     clear = 'clear' if clear else 'cls'
     text = symbol * kol
     for j in range(times):
@@ -30,6 +44,13 @@ def symbol_expansion(symbol: str, kol: int = 10, times: int = 2, clear: bool = F
 
 
 def dot_circling(times: int = 2, clear: bool = False):
+    r"""
+    Example:
+
+    '-'->'\'->'|'->'/'->'-'->'\'->'|'->'/'
+
+    (example for times == 2)
+    """
     clear = 'clear' if clear else 'cls'
     for j in range(times):
         for i in range(4):
@@ -45,6 +66,13 @@ def dot_circling(times: int = 2, clear: bool = False):
 
 
 def line_circling(kol: int = 10, times: int = 2, clear: bool = False):
+    r"""
+    Example:
+
+    '-'->'\\'->'|||'->'////'->'---'->'\\'->'|'
+
+     (example for times == 2, kol == 4)
+    """
     clear = 'clear' if clear else 'cls'
     for j in range(times):
         if j % 2 == 0:
@@ -73,7 +101,16 @@ def line_circling(kol: int = 10, times: int = 2, clear: bool = False):
                 os.system(clear)
 
 
-def person_dancer(times: int = 3, sleep: int = 0.5, clear: bool = False):
+def owl_dancer(times: int = 3, sleep: int = 0.5, clear: bool = False):
+    r"""
+    Example:
+
+    (@>@)    (@>@)    (@>@)    (@>@)
+    \) )\ -> /| |\ -> /( (/ -> /| |\
+     / \      / \      / \      / \
+
+    (example for times == 1)
+    """
     clear = 'clear' if clear else 'cls'
     for j in range(times):
         print("(@>@)\n\\) )\\\n / \\")
