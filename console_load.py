@@ -17,7 +17,7 @@ def text_expansion(text: str, times: int = 2, clear: bool = False):
                 print(text[:i])
                 os.system(clear)
         else:
-            for i in range(len(text) + 1):
+            for i in range(1, len(text)):
                 print(text[:len(text) - i])
                 os.system(clear)
 
@@ -34,7 +34,7 @@ def symbol_expansion(symbol: str, kol: int = 10, times: int = 2, clear: bool = F
     text = symbol * kol
     for j in range(times):
         if j % 2 == 0:
-            for i in range(len(text)):
+            for i in range(1, len(text)):
                 print(text[:i])
                 os.system(clear)
         else:
@@ -76,7 +76,7 @@ def line_circling(kol: int = 10, times: int = 2, clear: bool = False):
     clear = 'clear' if clear else 'cls'
     for j in range(times):
         if j % 2 == 0:
-            for i in range(kol):
+            for i in range(1, kol):
                 if i % 4 == 0:
                     symbol = '-'
                 elif i % 4 == 1:
@@ -132,10 +132,10 @@ def owl_dancer(times: int = 3, sleep: int = 0.5, clear: bool = False):
 '''
 Tests
 
-text_expansion("abcdef", 1)
-symbol_expansion('%', 4, 4)
-dot_circling(3)
-line_circling(17, 2)
-person_dancer()
+text_expansion('text', 2)
+symbol_expansion('%', 4, 2)
+dot_circling(2)
+line_circling(4, 2)
+owl_dancer(2)
 
 '''
