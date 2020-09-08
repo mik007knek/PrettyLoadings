@@ -1,4 +1,5 @@
 import os
+import time
 
 
 def text_expansion(text: str, times: int = 2, clear: bool = False):
@@ -57,7 +58,7 @@ def line_circling(kol: int = 10, times: int = 2, clear: bool = False):
                 else:
                     symbol = '/'
                 print(symbol * i)
-                os.system('cls')
+                os.system(clear)
         else:
             for i in range(kol):
                 if i % 4 == 0:
@@ -69,7 +70,26 @@ def line_circling(kol: int = 10, times: int = 2, clear: bool = False):
                 else:
                     symbol = '/'
                 print(symbol * (kol - i))
-                os.system('cls')
+                os.system(clear)
+
+
+def person_dancer(times: int = 3, sleep: int = 0.5, clear: bool = False):
+    clear = 'clear' if clear else 'cls'
+    for j in range(times):
+        print("(@>@)\n\\) )\\\n / \\")
+        time.sleep(sleep)
+        os.system(clear)
+        print("(@>@)\n/| |\\\n / \\")
+        time.sleep(sleep)
+        os.system(clear)
+        print("(@>@)\n/( (/\n / \\")
+        time.sleep(sleep)
+        os.system(clear)
+        print("(@>@)\n/| |\\\n / \\")
+        time.sleep(sleep)
+        os.system(clear)
+
+
 
 
 '''
@@ -78,4 +98,7 @@ Tests
 text_expansion("abcdef", 1)
 symbol_expansion('%', 4, 4)
 dot_circling(3)
-line_circling(17, 2)'''
+line_circling(17, 2)
+person_dancer()
+
+'''
