@@ -21,4 +21,5 @@ Soon, I can (maybe not) upload this project to PyPi!
 
 P. S.: In each func in console_load, you can see `clear: bool = False`. I used it for people who have macOS or Linux
 P. S. 2: Sorry for my english, i don't know it very well, i'm from Russia)
+
 """
