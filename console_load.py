@@ -134,7 +134,7 @@ def owl_dancer(times: int = 3, sleep: int = 0.5, clear: bool = False):
         os.system(clear)
 
 
-def human_gymnast(times: int = 3, sleep: int = 0.5, clear: bool = False):
+def human_gymnast(times: int = 2, sleep: int = 0.5, clear: bool = False):
     r"""
     Example:
 
