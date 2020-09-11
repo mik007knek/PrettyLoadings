@@ -7,7 +7,7 @@ Loadings:
 -Text Expansion (t->te->tes->test)
 -Symbol Expansion (%->%%->%%%->%%%%)
 -Dot Circling ('-'->'\'->'|'->'/')
--Line Circling ('-'->'\\'->'|||'->'////')
+-Line Circling ('\'->'||'->'///'->'----')
 -Owl Dancing
 (@>@)    (@>@)    (@>@)    (@>@)
 \) )\ -> /| |\ -> /( (/ -> /| |\
