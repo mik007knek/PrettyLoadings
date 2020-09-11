@@ -1,7 +1,7 @@
 r"""
 This is PrettyLoadings lib by mik007knek, and it is almost the most useless lib!
 
-Version = 0.0.0.1.2
+Version = 0.0.0.1.5
 
 Loadings:
 -Text Expansion (t->te->tes->test)
@@ -12,6 +12,10 @@ Loadings:
 (@>@)    (@>@)    (@>@)    (@>@)
 \) )\ -> /| |\ -> /( (/ -> /| |\
  / \      / \      / \      / \
+-Human Gymnast
+ 0              \ /
+/|\ ->  ___0 ->  | -> 0____
+/ \    /\ /\    /0\   /\ /\
 (all examples are shown as 1 time loop)
 
 In next versions there will be more loadings and (maybe) adaptive loadings
