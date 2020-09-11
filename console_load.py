@@ -146,18 +146,35 @@ def human_gymnast(times: int = 2, sleep: int = 0.5, clear: bool = False):
     """
     clear = 'clear' if clear else 'cls'
     for j in range(times):
-        print("   0 \n  /|\\\n  / \\")
-        time.sleep(sleep)
-        os.system(clear)
-        print("\n   ___0\n  /\\ /\\")
-        time.sleep(sleep)
-        os.system(clear)
-        print("  \\ /\n   | \n  /0\\")
-        time.sleep(sleep)
-        os.system(clear)
-        print("\n0___\n/\\ /\\")
-        time.sleep(sleep)
-        os.system(clear)
+        if j % 2 == 0:
+            print(" 0 \n/|\\\n/ \\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("\n ___0\n/\\ /\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("  \\ /\n   | \n  /0\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("\n  0___\n  /\\ /\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("     0 \n    /|\\\n    / \\")
+            time.sleep(sleep)
+            os.system(clear)
+        else:
+            print("\n  0___\n  /\\ /\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("  \\ /\n   | \n  /0\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print("\n ___0\n/\\ /\\")
+            time.sleep(sleep)
+            os.system(clear)
+            print(" 0 \n/|\\\n/ \\")
+            time.sleep(sleep)
+            os.system(clear)
 
 
 '''
