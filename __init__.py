@@ -1,7 +1,7 @@
 r"""
 This is PrettyLoadings lib by mik007knek, and it is almost the most useless lib!
 
-Version = 0.0.0.1.5
+Version = 0.0.0.1.3
 
 Loadings:
 -Text Expansion (t->te->tes->test)
