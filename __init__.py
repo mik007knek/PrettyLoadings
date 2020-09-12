@@ -13,9 +13,9 @@ Loadings:
 \) )\ -> /| |\ -> /( (/ -> /| |\
  / \      / \      / \      / \
 -Human Gymnast
- 0              \ /
-/|\ ->  ___0 ->  | -> ____0
-/ \    /\ /\    /0\   /\ /\
+ 0              \ /             0
+/|\ ->  ___0 ->  | ->  ___0 -> /|\
+/ \    /\ /\    /0\   /\ /\    / \
 (all examples are shown as 1 time loop)
 
 In next versions there will be more loadings and (maybe) adaptive loadings

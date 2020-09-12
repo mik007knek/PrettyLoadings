@@ -138,9 +138,9 @@ def human_gymnast(times: int = 2, sleep: int = 0.5, clear: bool = False):
     r"""
     Example:
 
-     0              \ /
-    /|\ ->  ___0 ->  | -> 0____
-    / \    /\ /\    /0\   /\ /\
+     0              \ /             0
+    /|\ ->  ___0 ->  | ->  ___0 -> /|\
+    / \    /\ /\    /0\   /\ /\    / \
 
     (example for times == 1)
     """
