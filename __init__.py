@@ -14,7 +14,7 @@ Loadings:
  / \      / \      / \      / \
 -Human Gymnast
  0              \ /
-/|\ ->  ___0 ->  | -> 0____
+/|\ ->  ___0 ->  | -> ____0
 / \    /\ /\    /0\   /\ /\
 (all examples are shown as 1 time loop)
 
